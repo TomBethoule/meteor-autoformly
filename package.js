@@ -2,12 +2,12 @@ var both = ['client', 'server'];
 var client = 'client';
 
 Package.describe({
-    name: "wieldo:autoformly",
+    name: "tombethoule:autoformly",
     summary: "Create angular-formly forms with automatic insert and update, and automatic reactive validation.",
     version: "0.8.0",
 
     documentation: 'README.md',
-    git: 'https://github.com/wieldo/meteor-autoformly.git'
+    git: 'https://github.com/TomBethoule/meteor-autoformly.git'
 });
 
 Package.onUse(function (api) {
@@ -33,7 +33,7 @@ Package.onUse(function (api) {
         ]
     };
 
-    api.versionsFrom("METEOR@1.0");
+    api.versionsFrom("METEOR@1.4");
 
     api.use(packages.use);
 
@@ -84,7 +84,7 @@ Package.onTest(function (api) {
         'velocity:console-reporter',
         'angular:angular-mocks@1.4.7',
         'pbastowski:angular-babel',
-        'wieldo:autoformly'
+        'tombethoule:autoformly'
     ]);
 
     api.addFiles([
