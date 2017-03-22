@@ -14,12 +14,11 @@ Package.onUse(function (api) {
 
     var packages = {
         use: [
-            'aldeed:simple-schema@1.1.0',
-            'aldeed:collection2@2.0.0',
+            'aldeed:collection2-core@2.0.0',
             'underscore',
             'check',
-            'angular@1.2.0',
-            'pbastowski:angular-babel@1.0.9',
+            'angular@1.6.3',
+            'pbastowski:angular-babel@1.3.7',
             'pbastowski:angular2-now@1.1.5',
             'mys:angular-template-url@0.0.1',
             'formly:angular-formly@7.3.9_3',
@@ -28,8 +27,7 @@ Package.onUse(function (api) {
         imply: [
             'mys:angular-template-url',
             'pbastowski:angular2-now',
-            'aldeed:simple-schema',
-            'aldeed:collection2',
+            'aldeed:collection2-core',
             'formly:angular-formly',
             'wieldo:angular-formly-validator'
         ]
